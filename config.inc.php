@@ -1,0 +1,19 @@
+<?php
+$config['db_dsnw'] = 'mysql://MYSQL_USER:MYSQL_PASSWORD@MYSQL_TCP_ADDR:MYSQL_PORT/MYSQL_DB';
+$config['default_host'] = 'IMAP_PROTOCOL://IMAP_HOST';
+$config['smtp_server'] = 'SMTP_PROTOCOL://SMTP_HOST';
+$config['smtp_port'] = SMTP_PORT; 
+$config['smtp_user'] = '%u';
+$config['smtp_pass'] = '%p';
+$config['support_url'] = '';
+$config['des_key'] = 'ROUNDCUBE_RANDOM';
+$config['plugins'] = array();
+$config['language'] = 'LOCALISATION';
+$config['spellcheck_engine'] = 'atd';
+$config['mail_pagesize'] = 250;
+$config['addressbook_pagesize'] = 250;
+$config['htmleditor'] = 2;
+$config['preview_pane'] = true;
+$config['product_name'] = 'Roundcube Webmail';
+$config['useragent'] = 'Roundcube Webmail/'.RCMAIL_VERSION;
+?>
