@@ -1,19 +1,12 @@
 <?php
-$config['db_dsnw'] = 'mysql://MYSQL_USER:MYSQL_PASSWORD@MYSQL_TCP_ADDR:MYSQL_PORT/MYSQL_DB';
-$config['default_host'] = 'IMAP_PROTOCOL://IMAP_HOST';
-$config['smtp_server'] = 'SMTP_PROTOCOL://SMTP_HOST';
-$config['smtp_port'] = SMTP_PORT; 
-$config['smtp_user'] = '%u';
-$config['smtp_pass'] = '%p';
-$config['support_url'] = '';
-$config['des_key'] = 'ROUNDCUBE_RANDOM';
-$config['plugins'] = array();
-$config['language'] = 'LOCALISATION';
-$config['spellcheck_engine'] = 'atd';
-$config['mail_pagesize'] = 250;
-$config['addressbook_pagesize'] = 250;
-$config['htmleditor'] = 2;
-$config['preview_pane'] = true;
-$config['product_name'] = 'Roundcube Webmail';
-$config['useragent'] = 'Roundcube Webmail/'.RCMAIL_VERSION;
-?>
+
+/* Local configuration for Roundcube Webmail */
+
+$config['db_dsnw'] = 'mysql://roundcube:14114ve@localhost/roundcubemail';
+$config['default_host'] = 'localhost';
+$config['support_url'] = 'http://www.nettix.com.pe/soporte';
+//$config['des_key'] = '3e61623ba9240550600046bd';
+$config['default_charset'] = 'UTF-8';
+$config['smtp_port'] = 25;
+$config['force_https'] = true;
+//$config['log_level'] = 4
